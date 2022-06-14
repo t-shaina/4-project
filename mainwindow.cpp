@@ -3,13 +3,13 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::MainWindow)//5 commit
 {
-    ui->setupUi(this);
+    ui->setupUi(this);//4коммит
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
+    delete ui;// третий коммит
 }
 
